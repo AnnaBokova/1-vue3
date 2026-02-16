@@ -1,6 +1,21 @@
 :root {
+  --color-text-main: #000000;
+  --color-text-secondary: #222222;
+  --color-bg: #f0f4f8;
+  --color-text-button: #fff;
+  --color-primary: #008bfe;
+  --color-secondary: #cce8ff;
+  --color-button-hover: #006fcb;
+
+  --font: "Roboto", sans-serif;
+}
+
+body {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font: var(--font);
 }
